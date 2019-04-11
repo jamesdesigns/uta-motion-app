@@ -16,4 +16,8 @@ http://docs.nativescript.org/cookbook/ui/tab-view
     <TabViewItem title="Search" ios:iconSource="res://tabIcons/search" android:iconSource="res://search">
         <Frame defaultPage="search/search-page"></Frame>
     </TabViewItem>
+
+    <TabViewItem title="Settings" ios:iconSource="res://tabIcons/settings" android:iconSource="res://settings">
+        <Frame defaultPage="settings/settings-page"></Frame>
+    </TabViewItem>
 </TabView>
